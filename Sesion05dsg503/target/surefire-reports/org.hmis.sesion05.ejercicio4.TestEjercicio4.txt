@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.hmis.sesion05.ejercicio4.TestEjercicio4
+-------------------------------------------------------------------------------
+Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in org.hmis.sesion05.ejercicio4.TestEjercicio4

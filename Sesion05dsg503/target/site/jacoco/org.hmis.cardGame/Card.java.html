@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Card.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Sesion05dsg503</a> &gt; <a href="index.source.html" class="el_package">org.hmis.cardGame</a> &gt; <span class="el_source">Card.java</span></div><h1>Card.java</h1><pre class="source lang-java linenums">package org.hmis.cardGame;
+
+/*
+An object of class card represents one of the 52 cards in a
+standard deck of playing cards.  Each card has a suit and
+a value.
+Source: https://math.hws.edu/eck/cs124/javanotes4/c5/ex-5-5-answer.html
+ */
+
+
+public class Card {
+
+	public final static int SPADES = 0,       // Codes for the 4 suits.
+			HEARTS = 1,
+			DIAMONDS = 2,
+			CLUBS = 3;
+
+	public final static int ACE = 1,          // Codes for the non-numeric cards.
+			JACK = 11,        //   Cards 2 through 10 have their 
+			QUEEN = 12,       //   numerical values for their codes.
+			KING = 13;
+
+	private final int suit;   // The suit of this card, one of the constants
+	//    SPADES, HEARTS, DIAMONDS, CLUBS.
+
+	private final int value;  // The value of this card, from 1 to 13.
+
+<span class="fc" id="L28">	public Card(int theValue, int theSuit) {</span>
+		// Construct a card with the specified value and suit.
+		// Value must be between 1 and 13.  Suit must be between
+		// 0 and 3.  If the parameters are outside these ranges,
+		// the constructed card object will be invalid.
+<span class="fc" id="L33">		value = theValue;</span>
+<span class="fc" id="L34">		suit = theSuit;</span>
+<span class="fc" id="L35">	}</span>
+
+	public int getSuit() {
+		// Return the int that codes for this card's suit.
+<span class="nc" id="L39">		return suit;</span>
+	}
+
+	public int getValue() {
+		// Return the int that codes for this card's value.
+<span class="fc" id="L44">		return value;</span>
+	}
+
+	public String getSuitAsString() {
+		// Return a String representing the card's suit.
+		// (If the card's suit is invalid, &quot;??&quot; is returned.)
+		
+		// https://unicode-table.com/en/sets/suits-of-the-cards/
+		
+<span class="pc bpc" id="L53" title="4 of 5 branches missed.">		switch ( suit ) {</span>
+<span class="nc" id="L54">		case SPADES:   return &quot;♠&quot;;</span>
+<span class="fc" id="L55">		case HEARTS:   return &quot;♥&quot;;</span>
+<span class="nc" id="L56">		case DIAMONDS: return &quot;♦&quot;;</span>
+<span class="nc" id="L57">		case CLUBS:    return &quot;♣&quot;;</span>
+<span class="nc" id="L58">		default:       return &quot;¯\\_(ツ)_/¯&quot;;</span>
+		}
+	}
+
+	public String getValueAsString() {
+		// Return a String representing the card's value.
+		// If the card's value is invalid, &quot;??&quot; is returned.
+<span class="pc bpc" id="L65" title="12 of 14 branches missed.">		switch ( value ) {</span>
+<span class="fc" id="L66">		case 1:   return &quot;A&quot;;</span>
+<span class="fc" id="L67">		case 2:   return &quot;2&quot;;</span>
+<span class="nc" id="L68">		case 3:   return &quot;3&quot;;</span>
+<span class="nc" id="L69">		case 4:   return &quot;4&quot;;</span>
+<span class="nc" id="L70">		case 5:   return &quot;5&quot;;</span>
+<span class="nc" id="L71">		case 6:   return &quot;6&quot;;</span>
+<span class="nc" id="L72">		case 7:   return &quot;7&quot;;</span>
+<span class="nc" id="L73">		case 8:   return &quot;8&quot;;</span>
+<span class="nc" id="L74">		case 9:   return &quot;9&quot;;</span>
+<span class="nc" id="L75">		case 10:  return &quot;10&quot;;</span>
+<span class="nc" id="L76">		case 11:  return &quot;J&quot;;</span>
+<span class="nc" id="L77">		case 12:  return &quot;Q&quot;;</span>
+<span class="nc" id="L78">		case 13:  return &quot;K&quot;;</span>
+<span class="nc" id="L79">		default:  return &quot;¯\\_(ツ)_/¯&quot;;</span>
+		}
+	}
+
+	public String toString() {
+		// Return a String representation of this card, such as
+		// &quot;10 of Hearts&quot; or &quot;Queen of Spades&quot;.
+<span class="nc" id="L86">		return getValueAsString() + &quot;&quot; + getSuitAsString();</span>
+	}
+
+
+} // end class Card
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2022-06-02T12:22:56.846">
+<file name="C:\Users\Usuario\HMIS\Sesion05dsg503\src\org\hmis\cardGame\Deck.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="24" rule="UnusedImports" ruleset="Best Practices" package="org.hmis.cardGame" class="Deck" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.util.Arrays'
+</violation>
+</file>
+</pmd>
