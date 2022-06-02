@@ -131,16 +131,4 @@ class TestEjercicio3 {
 		// Assert
 		assertEquals(expected, consola.toString());
 	}
-
-	/*@ParameterizedTest(name = "{index} => Contraseña {0} devuelve {1}")
-	@CsvSource({"cont, password demasiado corto"})
-
-	void testMenor5(String password, String expected) {
-		// Arrange
-		Ejercicio3 e3 = new Ejercicio3();
-		// Act
-		e3.enmascarado(password);
-		// Assert;
-		assertEquals(expected, systemOutRule.getLog());
-	}*/
 }

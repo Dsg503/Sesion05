@@ -3,7 +3,7 @@ package org.hmis.cardGame;
 import java.util.Scanner;
 
 public class Main {
-	
+
 	public static void main(String[] args) {
 		Deck baraja = new Deck();
 		int dinero = 10;

@@ -18,15 +18,6 @@ public class TestEjercicio5 {
 		Ejercicio5 e5 = new Ejercicio5();
 		ArrayList<String> nombres = new ArrayList<String>();
 		nombres.add(a);
-		nombres.add(b);
-		nombres.add(c);
-		nombres.add(d);
-		nombres.add(e);
-		nombres.add(f);
-		nombres.add(g);
-		nombres.add(h);
-		nombres.add(i);
-		nombres.add(j);
 		// Act
 		ArrayList<String> ordenada = e5.listaOrdenadaEstudiantes(nombres, new ArrayList<String>());
 		// Assert
@@ -41,15 +32,6 @@ public class TestEjercicio5 {
 		Ejercicio5 e5 = new Ejercicio5();
 		ArrayList<String> nombres = new ArrayList<String>();
 		nombres.add(a);
-		nombres.add(b);
-		nombres.add(c);
-		nombres.add(d);
-		nombres.add(e);
-		nombres.add(f);
-		nombres.add(g);
-		nombres.add(h);
-		nombres.add(i);
-		nombres.add(j);
 		// Act
 		ArrayList<String> ordenada = e5.listaOrdenadaEstudiantes(nombres, null);
 		// Assert
@@ -67,12 +49,6 @@ public class TestEjercicio5 {
 		nombres.add(b);
 		nombres.add(c);
 		nombres.add(d);
-		nombres.add(e);
-		nombres.add(f);
-		nombres.add(g);
-		nombres.add(h);
-		nombres.add(i);
-		nombres.add(j);
 		// Act
 		ArrayList<String> ordenada = e5.listaOrdenadaEstudiantes(new ArrayList<String>(), nombres);
 		// Assert

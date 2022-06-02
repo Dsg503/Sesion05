@@ -7,20 +7,20 @@
 'UTF-8'
 -protected
 -sourcepath
-'C:/Users/Usuario/HMIS/Sesion05dsg503/src'
+'C:/Users/Usuario/git/repository/Sesion05dsg503/src'
 -author
 -bottom
 'Copyright &#169; 2022. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'C:/Users/Usuario/HMIS/Sesion05dsg503/target/site/apidocs'
+'C:/Users/Usuario/git/repository/Sesion05dsg503/target/site/apidocs'
 -docencoding
 'UTF-8'
 -doctitle
 'Sesion05dsg503 0.0.1-SNAPSHOT API'
 -linkoffline
-'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Usuario/HMIS/Sesion05dsg503/target/javadoc-bundle-options'
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Usuario/git/repository/Sesion05dsg503/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
@@ -31,14 +31,14 @@ org.hmis.sesion05.ejercicio2
 org.hmis.sesion05.ejercicio3
 org.hmis.sesion05.ejercicio4
 org.hmis.sesion05.ejercicio5
-'C:/Users/Usuario/HMIS/Sesion05dsg503/src/org/hmis/cardGame/Card.java'
-'C:/Users/Usuario/HMIS/Sesion05dsg503/src/org/hmis/cardGame/Deck.java'
-'C:/Users/Usuario/HMIS/Sesion05dsg503/src/org/hmis/cardGame/Main.java'
-'C:/Users/Usuario/HMIS/Sesion05dsg503/src/org/hmis/sesion05/ejercicio1/Ejercicio1.java'
-'C:/Users/Usuario/HMIS/Sesion05dsg503/src/org/hmis/sesion05/ejercicio2/Ejercicio2.java'
-'C:/Users/Usuario/HMIS/Sesion05dsg503/src/org/hmis/sesion05/ejercicio3/Ejercicio3.java'
-'C:/Users/Usuario/HMIS/Sesion05dsg503/src/org/hmis/sesion05/ejercicio4/Ejercicio4.java'
-'C:/Users/Usuario/HMIS/Sesion05dsg503/src/org/hmis/sesion05/ejercicio5/Ejercicio5.java'
+'C:/Users/Usuario/git/repository/Sesion05dsg503/src/org/hmis/cardGame/Card.java'
+'C:/Users/Usuario/git/repository/Sesion05dsg503/src/org/hmis/cardGame/Deck.java'
+'C:/Users/Usuario/git/repository/Sesion05dsg503/src/org/hmis/cardGame/Main.java'
+'C:/Users/Usuario/git/repository/Sesion05dsg503/src/org/hmis/sesion05/ejercicio1/Ejercicio1.java'
+'C:/Users/Usuario/git/repository/Sesion05dsg503/src/org/hmis/sesion05/ejercicio2/Ejercicio2.java'
+'C:/Users/Usuario/git/repository/Sesion05dsg503/src/org/hmis/sesion05/ejercicio3/Ejercicio3.java'
+'C:/Users/Usuario/git/repository/Sesion05dsg503/src/org/hmis/sesion05/ejercicio4/Ejercicio4.java'
+'C:/Users/Usuario/git/repository/Sesion05dsg503/src/org/hmis/sesion05/ejercicio5/Ejercicio5.java'
 C:\Users\Usuario\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar = 1647449309999
 C:\Users\Usuario\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar = 1647449308426
 C:\Users\Usuario\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar = 1647361869596
@@ -128,17 +128,17 @@ C:\Users\Usuario\.m2\repository\org\ow2\asm\asm-analysis\9.3\asm-analysis-9.3.ja
 C:\Users\Usuario\.m2\repository\org\ow2\asm\asm-commons\9.3\asm-commons-9.3.jar = 1654159789516
 C:\Users\Usuario\.m2\repository\org\ow2\asm\asm-tree\9.3\asm-tree-9.3.jar = 1654159789560
 C:\Users\Usuario\.m2\repository\org\ow2\asm\asm-util\9.3\asm-util-9.3.jar = 1654159789634
-C:\Users\Usuario\HMIS\Sesion05dsg503\src = 1654164846083
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\allclasses-frame.html = 1654165356204
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\allclasses-noframe.html = 1654165356205
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\constant-values.html = 1654165356158
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\deprecated-list.html = 1654165356202
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\help-doc.html = 1654165356211
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\index-all.html = 1654165356199
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\index.html = 1654165356207
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\overview-frame.html = 1654165356123
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\overview-summary.html = 1654165356209
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\overview-tree.html = 1654165356194
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\package-list = 1654165356121
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\script.js = 1654165356213
-C:\Users\Usuario\HMIS\Sesion05dsg503\target\site\apidocs\stylesheet.css = 1654165356212
+C:\Users\Usuario\git\repository\Sesion05dsg503\src = 1654164846083
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\allclasses-frame.html = 1654177749344
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\allclasses-noframe.html = 1654177749345
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\constant-values.html = 1654177749292
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\deprecated-list.html = 1654177749342
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\help-doc.html = 1654177749349
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\index-all.html = 1654177749339
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\index.html = 1654177749346
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\overview-frame.html = 1654177749257
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\overview-summary.html = 1654177749347
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\overview-tree.html = 1654177749331
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\package-list = 1654177749255
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\script.js = 1654177749352
+C:\Users\Usuario\git\repository\Sesion05dsg503\target\site\apidocs\stylesheet.css = 1654177749351
