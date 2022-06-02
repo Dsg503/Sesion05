@@ -2,8 +2,8 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 Sesion05dsg503,org.hmis.sesion05.ejercicio5,Ejercicio5,0,46,0,12,0,13,0,8,0,2
 Sesion05dsg503,org.hmis.sesion05.ejercicio4,Ejercicio4,0,97,0,14,0,17,0,10,0,3
 Sesion05dsg503,org.hmis.sesion05.ejercicio3,Ejercicio3,0,50,0,10,0,13,0,7,0,2
-Sesion05dsg503,org.hmis.cardGame,Card,48,24,16,3,18,10,18,5,2,4
-Sesion05dsg503,org.hmis.cardGame,Deck,76,72,6,6,12,16,6,5,3,2
+Sesion05dsg503,org.hmis.cardGame,Card,0,72,0,19,0,28,0,23,0,6
+Sesion05dsg503,org.hmis.cardGame,Deck,0,148,0,12,0,28,0,11,0,5
 Sesion05dsg503,org.hmis.cardGame,Main,15,263,11,30,5,59,12,13,1,1
 Sesion05dsg503,org.hmis.sesion05.ejercicio2,Ejercicio2,0,40,0,14,0,11,0,10,0,3
 Sesion05dsg503,org.hmis.sesion05.ejercicio1,Ejercicio1,0,42,0,6,0,10,0,5,0,2

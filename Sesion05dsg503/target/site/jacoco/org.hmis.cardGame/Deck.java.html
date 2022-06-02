@@ -41,32 +41,32 @@ public class Deck {
 
 	@Override
 	public String toString() {
-<span class="nc" id="L44">		String result = &quot;&quot;; // = &quot;Deck \n&quot;;</span>
-<span class="nc bnc" id="L45" title="All 2 branches missed.">		for (int i = 0; i&lt; deck.length; i++) {</span>
-<span class="nc" id="L46">			result = result + deck[i].toString();</span>
-<span class="nc bnc" id="L47" title="All 2 branches missed.">			if ((i+1)%13==0) {</span>
-<span class="nc" id="L48">				result = result + &quot;\n&quot;;</span>
+<span class="fc" id="L44">		String result = &quot;&quot;; // = &quot;Deck \n&quot;;</span>
+<span class="fc bfc" id="L45" title="All 2 branches covered.">		for (int i = 0; i&lt; deck.length; i++) {</span>
+<span class="fc" id="L46">			result = result + deck[i].toString();</span>
+<span class="fc bfc" id="L47" title="All 2 branches covered.">			if ((i+1)%13==0) {</span>
+<span class="fc" id="L48">				result = result + &quot;\n&quot;;</span>
 			}else {
-<span class="nc" id="L50">				result = result + &quot;\t&quot;;</span>
+<span class="fc" id="L50">				result = result + &quot;\t&quot;;</span>
 			}	
 		}
 		
-<span class="nc" id="L54">		return result;</span>
+<span class="fc" id="L54">		return result;</span>
 	}
 
 	public int cardsLeft() {
 		// As cards are dealt from the deck, the number of cards left
 		// decreases.  This function returns the number of cards that
 		// are still left in the deck.
-<span class="nc" id="L61">		return 52 - cardsUsed;</span>
+<span class="fc" id="L61">		return 52 - cardsUsed;</span>
 	}
 
 	public Card dealCard() {
 		// Deals one card from the deck and returns it.
-<span class="nc bnc" id="L66" title="All 2 branches missed.">		if (cardsUsed == 52)</span>
-<span class="nc" id="L67">			shuffle();</span>
-<span class="nc" id="L68">		cardsUsed++;</span>
-<span class="nc" id="L69">		return deck[cardsUsed - 1];</span>
+<span class="fc bfc" id="L66" title="All 2 branches covered.">		if (cardsUsed == 52)</span>
+<span class="fc" id="L67">			shuffle();</span>
+<span class="fc" id="L68">		cardsUsed++;</span>
+<span class="fc" id="L69">		return deck[cardsUsed - 1];</span>
 	}
 
 } // end class Deck

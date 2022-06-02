@@ -1,6 +1,8 @@
-org\hmis\cardGame\TestCardGame.class
-org\hmis\sesion05\ejercicio2\TestEjercicio2.class
 org\hmis\sesion05\ejercicio4\TestEjercicio4.class
 org\hmis\sesion05\ejercicio1\TestEjercicio1.class
-org\hmis\sesion05\ejercicio3\TestEjercicio3.class
 org\hmis\sesion05\ejercicio5\TestEjercicio5.class
+org\hmis\cardGame\TestCardGame.class
+org\hmis\sesion05\ejercicio2\TestEjercicio2.class
+org\hmis\sesion05\ejercicio3\TestEjercicio3.class
+org\hmis\cardGame\TestCard.class
+org\hmis\cardGame\TestDeck.class

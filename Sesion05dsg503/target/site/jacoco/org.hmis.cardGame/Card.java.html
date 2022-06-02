@@ -36,7 +36,7 @@ public class Card {
 
 	public int getSuit() {
 		// Return the int that codes for this card's suit.
-<span class="nc" id="L39">		return suit;</span>
+<span class="fc" id="L39">		return suit;</span>
 	}
 
 	public int getValue() {
@@ -50,40 +50,40 @@ public class Card {
 		
 		// https://unicode-table.com/en/sets/suits-of-the-cards/
 		
-<span class="pc bpc" id="L53" title="4 of 5 branches missed.">		switch ( suit ) {</span>
-<span class="nc" id="L54">		case SPADES:   return &quot;♠&quot;;</span>
+<span class="fc bfc" id="L53" title="All 5 branches covered.">		switch ( suit ) {</span>
+<span class="fc" id="L54">		case SPADES:   return &quot;♠&quot;;</span>
 <span class="fc" id="L55">		case HEARTS:   return &quot;♥&quot;;</span>
-<span class="nc" id="L56">		case DIAMONDS: return &quot;♦&quot;;</span>
-<span class="nc" id="L57">		case CLUBS:    return &quot;♣&quot;;</span>
-<span class="nc" id="L58">		default:       return &quot;¯\\_(ツ)_/¯&quot;;</span>
+<span class="fc" id="L56">		case DIAMONDS: return &quot;♦&quot;;</span>
+<span class="fc" id="L57">		case CLUBS:    return &quot;♣&quot;;</span>
+<span class="fc" id="L58">		default:       return &quot;¯\\_(ツ)_/¯&quot;;</span>
 		}
 	}
 
 	public String getValueAsString() {
 		// Return a String representing the card's value.
 		// If the card's value is invalid, &quot;??&quot; is returned.
-<span class="pc bpc" id="L65" title="12 of 14 branches missed.">		switch ( value ) {</span>
+<span class="fc bfc" id="L65" title="All 14 branches covered.">		switch ( value ) {</span>
 <span class="fc" id="L66">		case 1:   return &quot;A&quot;;</span>
 <span class="fc" id="L67">		case 2:   return &quot;2&quot;;</span>
-<span class="nc" id="L68">		case 3:   return &quot;3&quot;;</span>
-<span class="nc" id="L69">		case 4:   return &quot;4&quot;;</span>
-<span class="nc" id="L70">		case 5:   return &quot;5&quot;;</span>
-<span class="nc" id="L71">		case 6:   return &quot;6&quot;;</span>
-<span class="nc" id="L72">		case 7:   return &quot;7&quot;;</span>
-<span class="nc" id="L73">		case 8:   return &quot;8&quot;;</span>
-<span class="nc" id="L74">		case 9:   return &quot;9&quot;;</span>
-<span class="nc" id="L75">		case 10:  return &quot;10&quot;;</span>
-<span class="nc" id="L76">		case 11:  return &quot;J&quot;;</span>
-<span class="nc" id="L77">		case 12:  return &quot;Q&quot;;</span>
-<span class="nc" id="L78">		case 13:  return &quot;K&quot;;</span>
-<span class="nc" id="L79">		default:  return &quot;¯\\_(ツ)_/¯&quot;;</span>
+<span class="fc" id="L68">		case 3:   return &quot;3&quot;;</span>
+<span class="fc" id="L69">		case 4:   return &quot;4&quot;;</span>
+<span class="fc" id="L70">		case 5:   return &quot;5&quot;;</span>
+<span class="fc" id="L71">		case 6:   return &quot;6&quot;;</span>
+<span class="fc" id="L72">		case 7:   return &quot;7&quot;;</span>
+<span class="fc" id="L73">		case 8:   return &quot;8&quot;;</span>
+<span class="fc" id="L74">		case 9:   return &quot;9&quot;;</span>
+<span class="fc" id="L75">		case 10:  return &quot;10&quot;;</span>
+<span class="fc" id="L76">		case 11:  return &quot;J&quot;;</span>
+<span class="fc" id="L77">		case 12:  return &quot;Q&quot;;</span>
+<span class="fc" id="L78">		case 13:  return &quot;K&quot;;</span>
+<span class="fc" id="L79">		default:  return &quot;¯\\_(ツ)_/¯&quot;;</span>
 		}
 	}
 
 	public String toString() {
 		// Return a String representation of this card, such as
 		// &quot;10 of Hearts&quot; or &quot;Queen of Spades&quot;.
-<span class="nc" id="L86">		return getValueAsString() + &quot;&quot; + getSuitAsString();</span>
+<span class="fc" id="L86">		return getValueAsString() + &quot;&quot; + getSuitAsString();</span>
 	}
 
 
